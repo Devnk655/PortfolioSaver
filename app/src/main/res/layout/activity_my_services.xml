@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyServices">
+    <TextView
+        android:id="@+id/textview11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:gravity="center|top"
+        android:paddingBottom="20dp"
+        android:text="My Services \n ------What I Provide---"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="700dp"
+            android:layout_height="700dp"
+            android:layout_gravity="top"
+            android:gravity="center|top"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="359dp"
+                android:layout_height="694dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/back"
+                android:gravity="center|top"
+                android:paddingRight="20dp"
+                android:text="App Design \n
+
+
+  *  I'm master at designing app and giving awesome and nice and fresh look to your app.   \n
+
+
+
+  * I have also designed many designs for apps.\n
+
+
+  *  I am using XMl to make Layout or UI Design of any App and I have mastered it very well.\n
+
+
+  *  I have more than 3 fully professional design in my work experience. \n
+
+  *  Those are very creative and equipped with advanced design tactics "
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="368dp"
+                android:layout_height="1940dp"
+                android:layout_gravity="left"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/back"
+                android:gravity="center|top"
+                android:text="App Development\n
+  * In the field of app development I have developed 1 fully functional and developed more then 10+ small fragment of application based on java.\n
+
+  *  That states my experience in the field. I love to keep upgrading my self so I keep learning new things.\n
+
+  *  My apps are fully responsive and easy to use and understand for user and owner.\n
+
+  *  Its My guarantee you will never question on my app development"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

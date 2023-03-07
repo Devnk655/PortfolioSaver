@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/user"
+        android:icon="@drawable/ic_baseline_person_outline_24"
+        android:iconTint="#000000"
+        android:title="User"
+        />
+    <item
+        android:id="@+id/social_media"
+        android:icon="@drawable/ic_baseline_connect_without_contact_24"
+        android:iconTint="#000000"
+        android:title="Notify"
+        />
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/menu"
+        android:iconTint="#000000"
+        android:title="Menu"
+        />
+
+</menu>
